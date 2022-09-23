@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Fast-food Store</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="title">패스트푸드점 찾기</div>
+        <div class="search">
+            <input id="txt-search" type="text" />
+            <button type="button" class="btn-search">검색</button>
+        </div>
+    </div>
+    <div class="body">
+        <div class="total"></div>
+        <div class="list"></div>
+    </div>
+    <div class="paging"></div>
+</div>
+
+<div id="item-template" class="item">
+    <div class="item-no"></div>
+    <div class="item-detail">
+        <div class="item-name"></div>
+        <div class="item-addr"></div>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
