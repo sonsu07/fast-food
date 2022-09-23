@@ -12,10 +12,9 @@ https://floating-harbor-78336.herokuapp.com/fastfood
 ### API 설명
 https://floating-harbor-78336.herokuapp.com
 
+---
 
 ## 배운점
-
----
 
 ### fetch를 이용하여 queryString을 하는 2가지 방법
 #### 1번 방법
