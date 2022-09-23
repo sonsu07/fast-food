@@ -4,6 +4,8 @@
 - [X] 검색기능 구현
 - [ ] 페이징 기능 구현
 
+---
+
 ### 패스트푸드점 목록 API
 https://floating-harbor-78336.herokuapp.com/fastfood
 
@@ -12,8 +14,10 @@ https://floating-harbor-78336.herokuapp.com
 
 
 ## 배운점
-### fetch를 이용하여 queryString을 하는 2가지 방법
 
+---
+
+### fetch를 이용하여 queryString을 하는 2가지 방법
 #### 1번 방법
 ```js
 const params = {
@@ -39,6 +43,8 @@ https://dalya-tech.tistory.com/47 참고
 
 https://stackoverflow.com/questions/35038857/setting-query-string-using-fetch-get-request 참고
 
+---
+
 ### HTML 템플릿을 생성할 때는 문자열들을 변수에 넣어두는 것보다 HTML에서 하나를 생성해둔 뒤 숨겨두고, clone 형식으로 쓰는게 편함
 
 - HTML단에서 하나의 템플릿을 생성하고 `display:none` 속성을 부여해둔다. 
@@ -48,6 +54,8 @@ https://stackoverflow.com/questions/35038857/setting-query-string-using-fetch-ge
 let template = document.querySelector('#item-template').cloneNode(true);
 template.removeAttribute('id');
 ```
+
+---
 
 ### Ajax에서 존재하는 trigger 속성은 대체가능
 * trigger 속성을 통해 다른 타겟을 불러와 클릭하게 만드는 기능은
@@ -62,6 +70,8 @@ searchBox.addEventListener('keypress', function (e) {
     }
 })
 ```
+
+---
 
 ### jQuery 동적 태그 생성 => 바닐라 자바스크립트로 변경
 ```js
