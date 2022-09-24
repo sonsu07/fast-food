@@ -87,7 +87,7 @@ function showPaging(page, perPage, total, searchKeyword) {
     // 이전 버튼 삽입
     let insertPrevPage = document.createElement('a');
     insertPrevPage.setAttribute('href', `javascript:search(${prevPage},${perPage},\'${searchKeyword}\')`);
-    insertPrevPage.innerHTML = '처음';
+    insertPrevPage.innerHTML = '이전';
     insertPrevPage.setAttribute('class', 'prev');
     paging.append(insertPrevPage);
 
@@ -105,7 +105,7 @@ function showPaging(page, perPage, total, searchKeyword) {
     // 다음 버튼 삽입
     let insertNextPage = document.createElement('a');
     insertNextPage.setAttribute('href', `javascript:search(${nextPage},${perPage},\'${searchKeyword}\')`);
-    insertNextPage.innerHTML = '마지막';
+    insertNextPage.innerHTML = '다음';
     insertNextPage.setAttribute('class', 'next');
     paging.append(insertNextPage);
 }
