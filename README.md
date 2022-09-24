@@ -31,5 +31,4 @@ https://floating-harbor-78336.herokuapp.com
 ---
 
 ## Result
-![](../../gif/fast food.gif)
-
+![](fast food.gif)
